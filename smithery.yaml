@@ -1,0 +1,5 @@
+startCommand:
+  type: stdio
+  commandFunction:
+    |-
+      (config) => ({command: 'weather-mcp'})
